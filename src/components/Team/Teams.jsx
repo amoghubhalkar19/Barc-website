@@ -3,52 +3,70 @@ import "./st.css";
 //import footer
 import IndexNavbar from '../Navbar/IndexNavbar'
 import img1 from './DeepakSomani.jpg';
+import aish from '../Team/aish.jpg'
+import bhumi from '../Team/bhumi.jpg'
+import bhoumik from '../Team/bhoumik.jpg'
+import aadit from '../Team/aadit.png'
+import komal from '../Team/komal.jpg'
+import abhi from '../Team/abhi.jpeg'
+import shrnsh from '../Team/sharansh.jpg'
+import ajay from '../Team/ajay.png'
+
+
+
+
+
 function contactus() {
   const headsData = [
 
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Abhinil Kumar",
+      img: aish,
+      name: "Aishwary Patel",
       pos: "General Secretary",
-      fb: "https://www.facebook.com/abhinil07",
+      // fb: "https://www.facebook.com/abhinil07",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/abhinilkumar07/",
-      mail: "abhinilkumar@gmail.com",
-      contact: "8210169485"
+      // linkedin: "https://www.linkedin.com/in/abhinilkumar07/",
+      // mail: "abhinilkumar@gmail.com",
+      // contact: "8210169485"
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Devansh Srivastava",
+      img: bhumi,
+      name: "Bhumi Tayal",
       pos: "General Secretary",
-      fb: "https://www.facebook.com/devansh.srivastava.1671",
+      // fb: "https://www.facebook.com/devansh.srivastava.1671",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/devansh-srivastava-97004620b/",
-      mail: "devanshrishi26@gmail.com",
-      contact: "9450124028"
+      // linkedin: "https://www.linkedin.com/in/devansh-srivastava-97004620b/",
+      // mail: "devanshrishi26@gmail.com",
+      // contact: "9450124028"
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Shashi Ranjan",
+      img: bhoumik,
+      name: "Bhoumik Mhatre",
       pos: "Senior Coordinator",
-      fb: "https://www.facebook.com/profile.php?id=100056269372029",
+      // fb: "https://www.facebook.com/profile.php?id=100056269372029",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/shashi-ranjan-861612210/",
-      mail: "iit2020sr@gmail.com",
-      contact: "8651045902"
+      // linkedin: "https://www.linkedin.com/in/shashi-ranjan-861612210/",
+      // mail: "iit2020sr@gmail.com",
+      // contact: "8651045902"
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Siddharth Ghankot",
+      name: "Aadit Shah",
+      img: aadit,
       pos: "Senior Coordinator",
-      fb: "https://www.facebook.com/siddharth.ghankot",
+      // fb: "https://www.facebook.com/siddharth.ghankot",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/siddharth-ghankot-3aa015210/",
-      mail: "siddharthghankot2003@gmail.com",
-      contact: "8073539279"
+      // linkedin: "https://www.linkedin.com/in/siddharth-ghankot-3aa015210/",
+      // mail: "siddharthghankot2003@gmail.com",
+      // contact: "8073539279"
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Aditya Mohite",
+      name: "Komal Arya",
+      img: komal,
       pos: "Senior Coordinator",
       fb: "https://www.facebook.com/aditya.mohite.5245",
       insta: '',
@@ -58,34 +76,37 @@ function contactus() {
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Hariom Chaudhari",
+      name: "Abhishek Tiwari",
+      img: abhi,
       pos: "Web and Graphics Design Coordinator",
-      fb: "https://www.facebook.com/ChaudhariHariomVijay",
+      // fb: "https://www.facebook.com/ChaudhariHariomVijay",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/chaudharihariomvijay/",
-      mail: "chaudharihariomvijay@gmail.com ",
-      contact: "9561797648"
+      // linkedin: "https://www.linkedin.com/in/chaudharihariomvijay/",
+      // mail: "chaudharihariomvijay@gmail.com ",
+      // contact: "9561797648"
     },
 
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Samyukta Kagdelwar",
+      name: "Sharansh Vardhan",
       pos: "Senior Coordinator",
-      fb: "https://www.facebook.com/samyukta.kagdelwar",
+      img: shrnsh,
+      // fb: "https://www.facebook.com/samyukta.kagdelwar",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/samyukta-kagdelwar-1027b020b/",
-      mail: "samyuktakagdelwar7@gmail.com",
-      contact: "7218204399"
+      // linkedin: "https://www.linkedin.com/in/samyukta-kagdelwar-1027b020b/",
+      // mail: "samyuktakagdelwar7@gmail.com",
+      // contact: "7218204399"
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Vidit Gupta",
+      name: "Ajay Biswas",
       pos: "Web Design Coordinator",
-      fb: "https://www.facebook.com/vidit.gupta.79",
+      img: ajay,
+      // fb: "https://www.facebook.com/vidit.gupta.79",
       insta: '',
-      linkedin: "https://www.linkedin.com/in/vidit-gupta-34662b207/",
-      mail: "gvidit23@gmail.com",
-      contact: "9174562462"
+      // linkedin: "https://www.linkedin.com/in/vidit-gupta-34662b207/",
+      // mail: "gvidit23@gmail.com",
+      // contact: "9174562462"
     }
   ];
 
@@ -250,7 +271,7 @@ function contactus() {
                   <div className="col-md-4 my-4 col-sm-6 row">
                     <div className="our-team">
                       <div className="team_img">
-                        <img src={img1} />
+                        <img src={ele.img} />
                         <ul className="social">
                           <li><a href={ele.fb} target="_blank"><i className="fab fa-facebook"></i></a></li>
                           <li><a href={"mailto: " + ele.mail} target="_blank"><i className="fa fa-envelope"></i></a></li>

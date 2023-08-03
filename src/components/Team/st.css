@@ -144,3 +144,8 @@
     border-radius: 50%;
     border: 1px solid white;
 }
+
+.team_img>img{
+    height: 36rem !important;
+    width: 100% !important;
+}
